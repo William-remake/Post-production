@@ -15,7 +15,7 @@ export default function page() {
     { name: "Highlight", image: "/dich vu 3.jpg" },
     { name: "Teaser", image: "/dich vu 2.jpg" },
     { name: "Chỉnh Sửa Theo Style Riêng", image: "/dich vu 5.jpg" },
-    { name: "Same-Day Edit", image: "/dich vu 4.jpg" },
+    { name: "Same-Day Edit", image: "/dich vu 7.jpg" },
     { name: "Reel Đọc", image: "/dich vu 6.jpg" },
   ];
 
