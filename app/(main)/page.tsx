@@ -11,9 +11,12 @@ import 'swiper/css/navigation';
 
 export default function page() {
   const services = [
-    { name: "Freelancer", image: "/dich vu 5.jpg" },
-    { name: "Studio Cưới", image: "/dich vu 3.jpg" },
-    { name: "Hậu Kỳ", image: "/dich vu 2.jpg" },
+    { name: "Full Ceremony", image: "/dich vu 1.jpg" },
+    { name: "Highlight", image: "/dich vu 3.jpg" },
+    { name: "Teaser", image: "/dich vu 2.jpg" },
+    { name: "Chỉnh Sửa Theo Style Riêng", image: "/dich vu 5.jpg" },
+    { name: "Same-Day Edit", image: "/dich vu 4.jpg" },
+    { name: "Reel Đọc", image: "/dich vu 6.jpg" },
   ];
 
   return (
