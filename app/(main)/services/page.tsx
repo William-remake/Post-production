@@ -36,7 +36,8 @@ export default function ServicesPage() {
   ];
 
   return (
-    <main className="w-full min-h-screen bg-white text-black py-32 px-6 sm:px-12 lg:px-24">
+    /* ĐÃ ĐỔI: Thay px-6 sm:px-12 lg:px-24 thành px-10 (tương đương 40px) */
+    <main className="w-full min-h-screen bg-white text-black py-32 px-10">
       <div className="max-w-7xl mx-auto">
         
         {/* HEADER SECTION */}
@@ -102,7 +103,7 @@ export default function ServicesPage() {
             href="/contact"
             className="group relative px-12 py-4 bg-transparent border-2 border-black text-black font-bold uppercase tracking-wide hover:text-white transition-all duration-300 overflow-hidden"
           >
-            <span className="relative z-10">Liên Hệ Đặt Lịch Hậu Kỳ</span>
+            <span className="relative z-10">Liên Hệ Đặt Lịch</span>
             <div className="absolute inset-0 h-full w-0 bg-black transition-all duration-300 group-hover:w-full"></div>
           </Link>
         </div>

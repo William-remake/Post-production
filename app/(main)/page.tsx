@@ -40,7 +40,7 @@ export default function page() {
       <section className="w-full bg-[#000000] py-6 overflow-hidden border-y border-white relative flex items-center">
         <style>{`
           @keyframes marquee-led {
-            0% { transform: translateX(0%); }
+            0% { transform: translateX(0); }
             100% { transform: translateX(-50%); }
           }
           .animate-led-text {
@@ -48,7 +48,7 @@ export default function page() {
             width: max-content;
             animation: marquee-led 25s linear infinite;
           }
-          /
+          
           .services-swiper .swiper-button-prev,
           .services-swiper .swiper-button-next {
             display: none !important;
@@ -85,11 +85,13 @@ export default function page() {
               DỊCH VỤ
             </h2>
 
-            {/* Các nút điều hướng Swiper - Đã chuyển sang tone Đen/Trắng tối giản */}
-            <div className="flex items-center gap-2 mt-4 md:absolute md:right-0 md:mt-0">
-              <button className="swiper-button-prev-custom text-black/40 hover:text-black transition-colors cursor-pointer">
-                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><path d="M15 19l-7-7 7-7" /></svg>
+            {/* ĐỂU NHAU: Đồng bộ cả 2 nút Swiper thành hình tròn, kích thước 40x40px (w-10 h-10) và hover điền nền đen hoàn hảo */}
+            <div className="flex items-center gap-3 mt-4 md:absolute md:right-0 md:mt-0">
+              {/* Mũi tên TRƯỚC (Prev) */}
+              <button className="swiper-button-prev-custom w-10 h-10 border border-black/20 rounded-full flex items-center justify-center text-black hover:bg-black hover:text-white transition-all cursor-pointer">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><path d="M15 19l-7-7 7-7" /></svg>
               </button>
+              {/* Mũi tên SAU (Next) */}
               <button className="swiper-button-next-custom w-10 h-10 border border-black/20 rounded-full flex items-center justify-center text-black hover:bg-black hover:text-white transition-all cursor-pointer">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><path d="M9 5l7 7-7 7" /></svg>
               </button>
