@@ -121,7 +121,7 @@ export default function ProductsPage() {
           href="/contact"
           className="group relative px-12 py-4 bg-transparent border-2 border-black text-black font-bold uppercase tracking-wide hover:text-white transition-all duration-300 overflow-hidden"
         >
-          <span className="relative z-10">Bắt đầu dự án ngay</span>
+          <span className="relative z-10">Liên Hệ ngay</span>
           <div className="absolute inset-0 h-full w-0 bg-black transition-all duration-300 group-hover:w-full"></div>
         </Link>
       </div>
