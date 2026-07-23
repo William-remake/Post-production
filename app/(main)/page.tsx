@@ -22,7 +22,7 @@ export default function page() {
   return (
     <main className="w-full bg-white">
       {/* SECTION HERO */}
-      <section className="relative w-full min-h-screen flex items-center justify-end px-4 sm:px-6 lg:px-20 font-sans overflow-hidden">
+      <section className="relative w-full h-[50vh] sm:h-[65vh] md:h-[80vh] max-h-212.5 min-h-87.5 flex items-center justify-end px-4 sm:px-6 lg:px-20 font-sans overflow-hidden">
         <div className="absolute inset-0 w-full h-full z-0">
           <Image
             src="/homepage.jpg"
@@ -30,8 +30,7 @@ export default function page() {
             fill
             priority
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 100vw, 1920px"
-            quality={90}
-            /* object-[85%_center] giúp đẩy ảnh sang phải trên điện thoại để hiện rõ chữ */
+            quality={95}
             className="object-cover object-[85%_center] md:object-center w-full h-full transition-transform duration-700"
           />
         </div>
