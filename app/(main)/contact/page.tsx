@@ -1,8 +1,7 @@
 import { 
   PhoneOutlined, 
   MailOutlined, 
-  EnvironmentOutlined, 
-  FacebookOutlined 
+  EnvironmentOutlined
 } from "@ant-design/icons";
 
 export default function ContactPage() {
@@ -78,7 +77,6 @@ export default function ContactPage() {
               <p className="text-xs uppercase tracking-widest text-black/50 mb-4">Kênh truyền thông</p>
               <div className="flex flex-wrap gap-3">
                 <a href="https://www.facebook.com/share/1KE35fFUps/?mibextid=wwXIfr" className="px-6 py-2.5 border border-black/20 text-xs font-bold uppercase tracking-widest hover:bg-black hover:text-white transition-all inline-flex items-center gap-2">
-                  <FacebookOutlined />
                   Facebook
                 </a>
               </div>
