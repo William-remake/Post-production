@@ -50,7 +50,7 @@ export default function Footer() {
                     <h3 className="font-bold text-lg uppercase tracking-wide text-[#ffffff]">vỀ CHÚNG TÔI</h3>
                     <div className="flex gap-4 text-2xl">
                         <a
-                            href="https://www.facebook.com/share/18NkZm2qKJ/"
+                            href="https://www.facebook.com/share/1KE35fFUps/?mibextid=wwXIfr"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="text-[#ffffff] hover:text-gray-400 transition-all duration-300 hover:scale-110"
