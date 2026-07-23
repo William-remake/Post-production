@@ -42,9 +42,9 @@ export default function ServicesPage() {
         
         {/* HEADER SECTION */}
         <div className="border-b border-black/10 pb-12 mb-24">
-          <p className="text-xs uppercase tracking-[0.3em] text-black/50 mb-3">Dịch vụ hậu kỳ</p>
+          <p className="text-xs uppercase tracking-[0.3em] text-black/50 mb-3">Services</p>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold uppercase tracking-wide text-black">
-            MÔ HÌNH DỊCH VỤ
+            Dịch vụ hậu kỳ
           </h1>
         </div>
 
