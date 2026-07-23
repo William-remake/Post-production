@@ -36,7 +36,6 @@ export default function ServicesPage() {
   ];
 
   return (
-    /* ĐÃ ĐỔI: Thay px-6 sm:px-12 lg:px-24 thành px-10 (tương đương 40px) */
     <main className="w-full min-h-screen bg-white text-black py-32 px-10">
       <div className="max-w-7xl mx-auto">
         
@@ -64,10 +63,8 @@ export default function ServicesPage() {
               {products.map((product, idx) => (
                 <div 
                   key={idx} 
-                  /* ĐÃ ĐỔI HOVER: Chuyển thành hover:bg-neutral-100 (màu xám nhẹ) */
                   className="group relative border border-black/10 p-8 flex flex-col gap-6 hover:bg-neutral-100 transition-all duration-300"
                 >
-                  {/* Khung chứa ảnh tỉ lệ cinematic 16:9 - Kích thước tự động to theo khung card */}
                   <div className="relative w-full aspect-video overflow-hidden bg-zinc-100 border border-black/5">
                     <Image
                       src={product.image}
@@ -78,15 +75,12 @@ export default function ServicesPage() {
                     />
                   </div>
 
-                  {/* Phần thông tin chữ - ĐÃ TĂNG SIZE CHỮ TO HƠN */}
                   <div className="flex flex-col gap-3">
                     <div>
-                      {/* TĂNG SIZE: Từ text-xl lên text-2xl md:text-3xl */}
                       <h3 className="text-2xl md:text-3xl font-bold uppercase tracking-wide text-black">
                         {product.name}
                       </h3>
                     </div>
-                    {/* TĂNG SIZE: Từ text-xs lên text-sm md:text-base và giữ độ tương phản tốt trên nền xám */}
                     <p className="text-sm md:text-base text-black/70 leading-relaxed">
                       {product.desc}
                     </p>
@@ -97,7 +91,6 @@ export default function ServicesPage() {
           </div>
         </section>
 
-        {/* CTA BUTTON */}
         <div className="mt-28 flex justify-center border-t border-black/10 pt-16">
           <Link
             href="/contact"

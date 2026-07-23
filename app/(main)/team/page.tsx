@@ -2,7 +2,6 @@ import Link from "next/link";
 import Image from "next/image";
 
 export default function TeamPage() {
-  // Danh sách 9 ảnh tập thể ekip (/team 1.jpg -> /team 9.jpg)
   const teamImages = [
     { id: 1, src: "/team 1.jpg", alt: "Ekip sản xuất Dung Phim Studio 1" },
     { id: 2, src: "/team 2.jpg", alt: "Ekip sản xuất Dung Phim Studio 2" },
@@ -10,7 +9,7 @@ export default function TeamPage() {
     { id: 4, src: "/team 4.jpg", alt: "Ekip sản xuất Dung Phim Studio 4" },
     { id: 5, src: "/team 5.jpg", alt: "Ekip sản xuất Dung Phim Studio 5" },
     { id: 6, src: "/team 6.jpg", alt: "Ekip sản xuất Dung Phim Studio 6" },
-    
+    { id: 7, src: "/team 7.jpg", alt: "Ekip sản xuất Dung Phim Studio 8" },
     { id: 8, src: "/team 8.jpg", alt: "Ekip sản xuất Dung Phim Studio 8" },
     { id: 9, src: "/team 9.jpg", alt: "Ekip sản xuất Dung Phim Studio 9" },
   ];
@@ -34,7 +33,6 @@ export default function TeamPage() {
           </div>
         </div>
 
-        {/* LƯỚI 9 ẢNH TẬP THỂ (TĨNH, KHÔNG HIỆU ỨNG) */}
         <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {teamImages.map((team) => (
             <div 
@@ -52,7 +50,6 @@ export default function TeamPage() {
           ))}
         </section>
 
-        {/* CTA BUTTON */}
         <div className="mt-28 flex justify-center border-t border-black/10 pt-16">
           <Link
             href="/contact"

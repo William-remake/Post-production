@@ -115,7 +115,6 @@ export default function ProductsPage() {
 
       </div>
 
-      {/* CTA BUTTON */}
       <div className="max-w-7xl mx-auto mt-28 flex justify-center border-t border-black/10 pt-16">
         <Link
           href="/contact"
